@@ -1,7 +1,7 @@
 # Exeter-Dorm-Websites
 Create websites for each dorm. We will provide a general template for individuals in dorms to take and personalize for their dorm. With our brainstorming so far, we are thinking of implementing the following...
 
-Features:
+Features:\
 -Already created sign-in for privacy\
 -List of upcoming dorm events\
 -Who's on duty (for the day and upcoming)\
