@@ -17,3 +17,18 @@ Features:\
 -Seperate form for proctors, stulis, & faculty to submit some of the above
 
 It will basically serve to collect all the clutter we get in emails, info posted on walls, and so much more!
+
+## Getting started
+We will use Next.js as our framework.
+
+First, make sure you have Node.js installed: https://nodejs.org/en/
+
+```bash
+npm install
+```
+
+To run the development server, use:
+
+```bash
+npm run dev
+```
