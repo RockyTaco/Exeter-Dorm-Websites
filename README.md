@@ -19,16 +19,6 @@ Features:\
 It will basically serve to collect all the clutter we get in emails, info posted on walls, and so much more!
 
 ## Getting started
-We will use Next.js as our framework.
+We will use the Python library Flask as our framework.
 
-First, make sure you have Node.js installed: https://nodejs.org/en/
-
-```bash
-npm install
-```
-
-To run the development server, use:
-
-```bash
-npm run dev
-```
+Simply run the app.py file to start the website and then follow the url.
