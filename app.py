@@ -10,8 +10,17 @@ dorm_data = { #made data all stored in this dictionary for ease of change
     'birthdays': [ #We'll scrape this from Connect
         {'name': 'Ryan Manley', 'date': 'January 15'},
         {'name': 'Mitchell Carson', 'date': 'February 20'},
+    ],
+    'facculty': [
+        {'name': 'Linclon', 'day': 'Monday'},
+        {'name': 'Camilus', 'day': 'Wednesday'},
+        {'name': 'Drescher', 'day': 'Tuesday'},
+        {'name': 'Mit', 'day': 'Friday'},
+        {'name': 'Mills', 'day': 'Thursday'},
+        {'name': 'Lembo', 'day': 'Saturday'},
     ]
 }
+
 
 @app.route('/')
 def home():
