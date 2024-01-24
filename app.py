@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import functions
 
 app = Flask(__name__)
 
@@ -9,8 +10,17 @@ dorm_data = { #made data all stored in this dictionary for ease of change
     'birthdays': [ #We'll scrape this from Connect
         {'name': 'Ryan Manley', 'date': 'January 15'},
         {'name': 'Mitchell Carson', 'date': 'February 20'},
+    ],
+    'facculty': [
+        {'name': 'Linclon', 'day': 'Monday'},
+        {'name': 'Camilus', 'day': 'Saturday'},
+        {'name': 'Drescher', 'day': 'Tuesday'},
+        {'name': 'Mit', 'day': 'Friday'},
+        {'name': 'Mills', 'day': 'Thursday'},
+        {'name': 'Lembo', 'day': 'Monday'},
     ]
 }
+
 
 @app.route('/')
 def home():
@@ -18,3 +28,5 @@ def home():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
+
+
