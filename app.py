@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import datetime
+import functions
 
 app = Flask(__name__)
 
@@ -21,6 +21,3 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
 
 
-def get_week_day():
-    ## returns an integer between 1 (Monday) and 7 (Sunday)
-    return (datetime.today().weekday()+1)
