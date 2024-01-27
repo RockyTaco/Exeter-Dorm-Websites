@@ -11,8 +11,8 @@ dorm_data = { #made data all stored in this dictionary for ease of change
         {'name': 'Ryan Manley', 'date': 'January 15'},
         {'name': 'Mitchell Carson', 'date': 'February 20'},
     ],
-    'facculty': [
-        {'name': 'Linclon', 'day': 'Monday'},
+    'faculty': [
+        {'name': 'Lincoln', 'day': 'Monday'},
         {'name': 'Camilus', 'day': 'Saturday'},
         {'name': 'Drescher', 'day': 'Tuesday'},
         {'name': 'Mit', 'day': 'Friday'},
