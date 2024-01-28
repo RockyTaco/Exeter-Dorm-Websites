@@ -13,11 +13,11 @@ dorm_data = { #made data all stored in this dictionary for ease of change
     ],
     'faculty': [
         {'name': 'Lincoln', 'day': 'Monday'},
-        {'name': 'Camilus', 'day': 'Saturday'},
         {'name': 'Drescher', 'day': 'Tuesday'},
-        {'name': 'Mit', 'day': 'Friday'},
+        {'name': 'Camilus', 'day': 'Wednesday'},
         {'name': 'Mills', 'day': 'Thursday'},
-        {'name': 'Lembo', 'day': 'Monday'},
+        {'name': 'Mit', 'day': 'Friday'},
+        {'name': 'Lembo', 'day': 'Monday'}
     ]
 }
 
