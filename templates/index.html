@@ -99,7 +99,6 @@
           <li>
             <a href="/contact">Contact</a>
           </li>
-          <!-- Add more navigation links as needed -->
         </ul>
       </nav>
     </header>
@@ -119,6 +118,15 @@
       <ul>
         {% for birthday in dorm_data['birthdays'] %}
           <li>{{ birthday['name'] }} - {{ birthday['date'] }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section>
+      <h2>Check-in faculty</h2>
+      <ul>
+        {% for faculty in dorm_data['faculty'] %}
+          <li>{{ faculty['name'] }} - {{ faculty['date'] }}</li>
         {% endfor %}
       </ul>
     </section>
