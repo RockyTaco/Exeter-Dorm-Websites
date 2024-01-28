@@ -13,7 +13,7 @@ dorm_data = { #made data all stored in this dictionary for ease of change
     ],
     'faculty': [
         {'name': 'Lincoln', 'day': 'Monday'},
-        {'name': 'Camilus', 'day': 'Saturday'},
+        {'name': 'Camilus', 'day': 'Wednesday'},
         {'name': 'Drescher', 'day': 'Tuesday'},
         {'name': 'Mit', 'day': 'Friday'},
         {'name': 'Mills', 'day': 'Thursday'},
@@ -21,7 +21,7 @@ dorm_data = { #made data all stored in this dictionary for ease of change
     ]
 }
 
-
+# maybe get rid of this
 @app.route('/')
 def home():
     return render_template('index.html', dorm_data=dorm_data)
