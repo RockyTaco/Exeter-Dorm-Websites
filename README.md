@@ -14,7 +14,7 @@ Features:\
 -Washer & Dryer availability (from Components Programming Group project)\
 -Dorm merch\
 -StuList and Proctor info\
--Seperate form for proctors, stulis, & faculty to submit some of the above
+-Seperate form for proctors, stulis, & faculty to submit some of the above\
 -Form for proctor elections (candidates)
 
 It will basically serve to collect all the clutter we get in emails, info posted on walls, and so much more!
