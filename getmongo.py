@@ -1,6 +1,10 @@
 import pymongo
+from dotenv import load_dotenv
+import os
 
-fetcher = pymongo.MongoClient("mongodb+srv://techcommittee:SmvuOBEJSrSdQGrf@surveycluster.a2fw86w.mongodb.net/stuco-surveys?retryWrites=true&w=majority")
+load_dotenv()
+
+fetcher = pymongo.MongoClient(os.environ.get("stuco_mongo_db"))
 
 db = fetcher["survey-responses"]
 
