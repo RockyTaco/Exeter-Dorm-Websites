@@ -15,7 +15,7 @@ dorm_data = { #made data all stored in this dictionary for ease of change
         {'name': 'Lincoln', 'day': 'Monday', 'rotates': True}, # lincoln rotates (saturday and sunday are rotations, often with lincoln)
         {'name': 'Camilus', 'day': 'Wednesday', 'rotates': False}, #wednesday is a lock for winter term
         {'name': 'Drescher', 'day': 'Tuesday', 'rotates': False}, # tuesday is also a lock
-        {'name': 'Mit', 'day': 'Friday', 'rotates': False}, # friday is also a lock
+        {'name': 'Mit', 'day': 'Friday', 'rotates': True}, # friday is also a lock
         {'name': 'Mills', 'day': 'Thursday', 'rotates': False}, # i think this one is a lock?
         {'name': 'Lembo', 'day': 'Monday', 'rotates': False}, # monday is a lock
     ]
