@@ -124,11 +124,13 @@
 
     <section>
       <h2>Check-in faculty</h2>
-      <ul>
+      <table>
         {% for faculty in dorm_data['faculty'] %}
-          <li>{{ faculty['name'] }} - {{ faculty['date'] }}</li>
+          <tr> {{ faculty['day'] }}
+            <td>{{ faculty['name'] }}</td>
+          </tr>
         {% endfor %}
-      </ul>
+      </table>
     </section>
 
     <footer>
