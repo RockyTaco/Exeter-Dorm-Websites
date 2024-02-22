@@ -79,62 +79,30 @@
         width: 100%;
       }
     </style>
-    <title>Wentworth Hall</title>
+
+    <body>
+      <header>
+        <h1>Wentworth Hall</h1>
+        <p>Your Home Away From Home</p>
+        <nav>
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/events">Events</a>
+            </li>
+            <li>
+              <a href="/gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </body>
+
+    <section></section>
   </head>
-  <body>
-    <header>
-      <h1>Wentworth Hall</h1>
-      <p>Your Home Away From Home</p>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/gallery">Gallery</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <section>
-      <h2>Image</h2>
-      <img src="{{ dorm_data['image_url'] }}" alt="Wentworth Hall Image" />
-    </section>
-
-    <section>
-      <h2>Motto</h2>
-      <p>{{ dorm_data['motto'] }}</p>
-    </section>
-
-    <section>
-      <h2>Dorm Birthdays</h2>
-      <ul>
-        {% for birthday in dorm_data['birthdays'] %}
-          <li>{{ birthday['name'] }} - {{ birthday['date'] }}</li>
-        {% endfor %}
-      </ul>
-    </section>
-
-    <section>
-      <h2>Check-in faculty</h2>
-      <table>
-        {% for faculty in dorm_data['faculty'] %}
-          <tr> {{ faculty['day'] }}
-            <td>{{ faculty['name'] }}</td>
-          </tr>
-        {% endfor %}
-      </table>
-    </section>
-
-    <footer>
-      <p>&copy; 2024 Exeter Computing Club</p>
-    </footer>
-  </body>
 </html>

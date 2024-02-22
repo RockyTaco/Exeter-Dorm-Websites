@@ -12,12 +12,13 @@ dorm_data = { #made data all stored in this dictionary for ease of change
         {'name': 'Mitchell Carson', 'date': 'February 20'},
     ],
     'faculty': [
-        {'name': 'Lincoln', 'day': 'Monday', 'rotates': True}, # lincoln rotates (saturday and sunday are rotations, often with lincoln)
-        {'name': 'Camilus', 'day': 'Wednesday', 'rotates': False}, #wednesday is a lock for winter term
-        {'name': 'Drescher', 'day': 'Tuesday', 'rotates': False}, # tuesday is also a lock
-        {'name': 'Mit', 'day': 'Friday', 'rotates': True}, # friday is also a lock
-        {'name': 'Mills', 'day': 'Thursday', 'rotates': False}, # i think this one is a lock?
-        {'name': 'Lembo', 'day': 'Monday', 'rotates': False}, # monday is a lock
+main
+        {'name': 'Lincoln', 'day': 'Monday', 'rotates': True},
+        {'name': 'Drescher', 'day': 'Tuesday', 'rotates': False},
+        {'name': 'Camilus', 'day': 'Wednesday', 'rotates': False},
+        {'name': 'Mills', 'day': 'Thursday', 'rotates': False},
+        {'name': 'Mit', 'day': 'Friday', 'rotates': True},
+        {'name': 'Lembo', 'day': 'Monday', 'rotates': False}     
     ]
 }
 
@@ -25,6 +26,9 @@ dorm_data = { #made data all stored in this dictionary for ease of change
 @app.route('/')
 def home():
     return render_template('index.html', dorm_data=dorm_data)
+@app.route('/events')
+def events():
+    return render_template('events.html', dorm_data=dorm_data)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080, debug=True)
